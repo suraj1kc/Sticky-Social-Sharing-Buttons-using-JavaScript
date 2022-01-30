@@ -1,0 +1,51 @@
+.wplogout-float-social-wrapper {
+    position: fixed;
+    top: 60%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index: 9999;
+}
+
+.wplogout-float-social-sharing {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: flex-start;
+    min-height: 30px;
+    font-size: 12px;
+    padding: 5px 10px;
+    margin: 0;
+}
+
+.wplogout-float-social-sharing svg {
+    position: relative;
+    top: 0.5em;
+}
+
+.wplogout-social-facebook {
+    fill: #fff;
+    background-color: rgba(59, 89, 152, 1);
+}
+
+.wplogout-social-facebook:hover {
+    background-color: rgba(59, 89, 152, 0.8);
+}
+
+.wplogout-social-twitter {
+    fill: #fff;
+    background-color: rgba(29, 161, 242, 1);
+}
+
+.wplogout-social-twitter:hover {
+    background-color: rgba(29, 161, 242, 0.8);
+}
+
+.wplogout-social-whatsapp {
+    fill: #fff;
+    background-color: rgba(37, 211, 102, 1);
+}
+
+.wplogout-social-whatsapp:hover {
+    background-color: rgba(37, 211, 102, .8);
+}
